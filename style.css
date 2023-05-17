@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,200;1,600&display=swap');
+body{
+    background-color: rgb(221, 53, 165);
+    color: rgba(247, 245, 242, 0.993);
+    font-family: 'Overpass', sans-serif;
+}
+header, footer, .inf-block {
+    background-color: rgba(238, 107, 183, 0.692);
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    padding: 1rem;
+}
+.inf-block{
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+    flex-basis: 4000px;
+}
+@media (max-width: 600px) {
+    .main{
+        flex-direction: column;
+    }
+    .inf-block{
+        flex-basis: 0px;
+    }
+}
+header, footer{
+    padding: 0.5rem  1rem;
+}
+.center{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+img {
+    width: 100%;
+    padding-top: 1rem;
+}
+a {
+    color: indigo;
+}
+footer p {
+    font-weight: 600;
+}
+h1{
+    line-height: 1;
+}
+p{
+    line-height: 1.5;
+}
+h2{
+    padding: 0;
+    margin: 0;
+    line-height: 1;
+    font-size: 1.25;
+}
